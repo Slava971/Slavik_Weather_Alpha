@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490F9FA7276E17810026C162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9FA6276E17810026C162 /* AppDelegate.swift */; };
+		490F9FA9276E17810026C162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9FA8276E17810026C162 /* SceneDelegate.swift */; };
+		490F9FAB276E17810026C162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9FAA276E17810026C162 /* ViewController.swift */; };
+		490F9FAE276E17810026C162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490F9FAC276E17810026C162 /* Main.storyboard */; };
+		490F9FB0276E178D0026C162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490F9FAF276E178D0026C162 /* Assets.xcassets */; };
+		490F9FB3276E178D0026C162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490F9FB1276E178D0026C162 /* LaunchScreen.storyboard */; };
+		490F9FBE276E1A110026C162 /* City_Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9FBD276E1A110026C162 /* City_Name.swift */; };
+		490F9FC1276E1A430026C162 /* detailMVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9FC0276E1A430026C162 /* detailMVC.swift */; };
+		490F9FC5276E1BCF0026C162 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 490F9FC4276E1BCF0026C162 /* Alamofire */; };
+		490F9FC9276E1BEF0026C162 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 490F9FC8276E1BEF0026C162 /* SwiftyJSON */; };
+		490F9FCC276E1C140026C162 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9FCB276E1C140026C162 /* TableViewController.swift */; };
+		490F9FCF276E1C640026C162 /* ViewControllerForLounge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490F9FCE276E1C640026C162 /* ViewControllerForLounge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		490F9FA3276E17810026C162 /* Slavik_weather_alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slavik_weather_alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		490F9FA6276E17810026C162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		490F9FA8276E17810026C162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		490F9FAA276E17810026C162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		490F9FAD276E17810026C162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		490F9FAF276E178D0026C162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		490F9FB2276E178D0026C162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		490F9FB4276E178D0026C162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490F9FBD276E1A110026C162 /* City_Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_Name.swift; sourceTree = "<group>"; };
+		490F9FC0276E1A430026C162 /* detailMVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailMVC.swift; sourceTree = "<group>"; };
+		490F9FCB276E1C140026C162 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		490F9FCE276E1C640026C162 /* ViewControllerForLounge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForLounge.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490F9FA0276E17810026C162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490F9FC9276E1BEF0026C162 /* SwiftyJSON in Frameworks */,
+				490F9FC5276E1BCF0026C162 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490F9F9A276E17810026C162 = {
+			isa = PBXGroup;
+			children = (
+				490F9FA5276E17810026C162 /* Slavik_weather_alpha */,
+				490F9FA4276E17810026C162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490F9FA4276E17810026C162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490F9FA3276E17810026C162 /* Slavik_weather_alpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490F9FA5276E17810026C162 /* Slavik_weather_alpha */ = {
+			isa = PBXGroup;
+			children = (
+				490F9FA6276E17810026C162 /* AppDelegate.swift */,
+				490F9FCB276E1C140026C162 /* TableViewController.swift */,
+				490F9FBD276E1A110026C162 /* City_Name.swift */,
+				490F9FC0276E1A430026C162 /* detailMVC.swift */,
+				490F9FCE276E1C640026C162 /* ViewControllerForLounge.swift */,
+				490F9FA8276E17810026C162 /* SceneDelegate.swift */,
+				490F9FAA276E17810026C162 /* ViewController.swift */,
+				490F9FAC276E17810026C162 /* Main.storyboard */,
+				490F9FAF276E178D0026C162 /* Assets.xcassets */,
+				490F9FB1276E178D0026C162 /* LaunchScreen.storyboard */,
+				490F9FB4276E178D0026C162 /* Info.plist */,
+			);
+			path = Slavik_weather_alpha;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490F9FA2276E17810026C162 /* Slavik_weather_alpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490F9FB7276E178D0026C162 /* Build configuration list for PBXNativeTarget "Slavik_weather_alpha" */;
+			buildPhases = (
+				490F9F9F276E17810026C162 /* Sources */,
+				490F9FA0276E17810026C162 /* Frameworks */,
+				490F9FA1276E17810026C162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slavik_weather_alpha;
+			packageProductDependencies = (
+				490F9FC4276E1BCF0026C162 /* Alamofire */,
+				490F9FC8276E1BEF0026C162 /* SwiftyJSON */,
+			);
+			productName = Slavik_weather_alpha;
+			productReference = 490F9FA3276E17810026C162 /* Slavik_weather_alpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		490F9F9B276E17810026C162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					490F9FA2276E17810026C162 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 490F9F9E276E17810026C162 /* Build configuration list for PBXProject "Slavik_weather_alpha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 490F9F9A276E17810026C162;
+			packageReferences = (
+				490F9FC3276E1BCF0026C162 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				490F9FC7276E1BEF0026C162 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 490F9FA4276E17810026C162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490F9FA2276E17810026C162 /* Slavik_weather_alpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490F9FA1276E17810026C162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490F9FB3276E178D0026C162 /* LaunchScreen.storyboard in Resources */,
+				490F9FB0276E178D0026C162 /* Assets.xcassets in Resources */,
+				490F9FAE276E17810026C162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		490F9F9F276E17810026C162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490F9FAB276E17810026C162 /* ViewController.swift in Sources */,
+				490F9FCC276E1C140026C162 /* TableViewController.swift in Sources */,
+				490F9FC1276E1A430026C162 /* detailMVC.swift in Sources */,
+				490F9FCF276E1C640026C162 /* ViewControllerForLounge.swift in Sources */,
+				490F9FA7276E17810026C162 /* AppDelegate.swift in Sources */,
+				490F9FA9276E17810026C162 /* SceneDelegate.swift in Sources */,
+				490F9FBE276E1A110026C162 /* City_Name.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		490F9FAC276E17810026C162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490F9FAD276E17810026C162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		490F9FB1276E178D0026C162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				490F9FB2276E178D0026C162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490F9FB5276E178D0026C162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		490F9FB6276E178D0026C162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		490F9FB8276E178D0026C162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Slavik_weather_alpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Trubachev.Slavik-weather-alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		490F9FB9276E178D0026C162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Slavik_weather_alpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Trubachev.Slavik-weather-alpha";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		490F9F9E276E17810026C162 /* Build configuration list for PBXProject "Slavik_weather_alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490F9FB5276E178D0026C162 /* Debug */,
+				490F9FB6276E178D0026C162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		490F9FB7276E178D0026C162 /* Build configuration list for PBXNativeTarget "Slavik_weather_alpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490F9FB8276E178D0026C162 /* Debug */,
+				490F9FB9276E178D0026C162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		490F9FC3276E1BCF0026C162 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+		490F9FC7276E1BEF0026C162 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		490F9FC4276E1BCF0026C162 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 490F9FC3276E1BCF0026C162 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		490F9FC8276E1BEF0026C162 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 490F9FC7276E1BEF0026C162 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 490F9F9B276E17810026C162 /* Project object */;
+}
